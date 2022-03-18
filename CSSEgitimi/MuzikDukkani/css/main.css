@@ -1,5 +1,5 @@
 body {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
@@ -21,16 +21,127 @@ nav ul li {
     float:left
 }
 nav ul li a {
-    width: 130px;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: #333 1px solid;
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
     display: block;
+    margin: 0 5px;
     padding: 8px 15px;
-    background-color: #eee;
     color: #333;
 }
 nav ul li a:hover {
-    background-color: #def;
+    background-color: #eee;
 
 }
+footer nav ul li a {
+    border: none;
+    border-top: #333 1px solid;
+}
+section:after {
+    clear: both;
+}
+footer {
+    clear: both;
+}
+/*ürünler start*/
+#urunler h2 {
+    clear: both;
+    border-bottom: #333 2px solid;
+    padding-left: 10px;
+    padding-top:30px;
+}
+.urun {
+    display: block;
+    width: 275px;
+    height: 400px;
+    position: relative;
+    border: #333 1px solid;
+    padding: 0;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+.urun img {
+    max-width: 240px;
+    max-height: 240px;
+}
+.urun .indirim {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f00;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 13px;
+    width: 25x;
+    height: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    transform: rotate(-30deg);
+
+}
+.urun .marka {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+}
+.urun .model {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 16px;
+    font-size: 16px;
+}
+.urun .kategori {
+    position: absolute;
+    top: 310px;
+    left: 0;
+    width: 100%;
+    height: 20x;
+    line-height: 20px;
+    font-size: 14px;
+}
+.urun .fiyat {
+    position: absolute;
+    top: 330px;
+    left: 0;
+    width: 100%;
+    height: 16x;
+    line-height: 20px;
+    font-size: 20px;
+}
+.urun .fiyat b {
+    padding-right: 10px;
+}
+.urun .fiyat del {
+    padding-left: 10px;
+    color: #f00;
+}
+.urun .bilgi-al {
+    position: absolute;
+    text-decoration: none;
+    top: 360px;
+    left: 0;
+    width: 100%;
+    height: 16x;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(0, 150, 75);
+    padding: 10px 0;
+}
+/*ürünler end*/
