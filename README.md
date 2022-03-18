@@ -38,3 +38,11 @@ Bu durumlarda commitlerden önceki versiyonlara ulaşabilirsiniz.
 * Müzik dükkanı için 5 sayfadan oluşan yapı kuruldu
 * Sayfalar menülerle birbirine bağlandı
 * Başlık ve menüler için CSS çalışması yapıldı
+* Ürünler sayfası grid yapısıyla oluşturuldu
+* diğer sayfalara içerikler girildi
+
+#### 3.2 Ödev 2
+* 1998 yılındaki ilk Google sayfası yalnızca HTML tagları kullanılarak oluşturuldu
+
+#### 3.3 Ödev 3
+* Güncel Google ana sayfası temel HTML ve CSS bilgileriyle tekrar oluşturuldu
