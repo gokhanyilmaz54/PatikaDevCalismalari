@@ -27,6 +27,29 @@
             background-size: 6%;
         }
         
+        .stories {
+            width: 1000px;
+            height: 80px;
+        }
+
+        .stories .story {
+            width: 60px;
+            float: left;
+            font-size: 0.7em;
+            margin-right: 10px;
+            padding: 0;
+        }
+
+        .stories .story p {
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .stories .story img {
+            width: 60px;
+            padding: 0;
+            margin: 0;
+        }
         .card {
             margin-bottom: 15px;
         }
@@ -37,11 +60,6 @@
         
         .card-title img {
             width: 50px;
-        }
-
-        .stories img {
-            width: 60px;
-            margin: 5px;
         }
 
         .right-side {
@@ -62,6 +80,7 @@
         .rs-profil .rs-adsoyad {
             font-size: 0.8em;
         }
+
         .right-side img {
             width:40px; 
             border-radius:50px;
@@ -135,34 +154,46 @@
     <div class="container">
         <div class="row">
             <div class="col-8">
-                <div class="card bg-white borderrounded stories" style="padding: 10px 0 10px 10px; margin:15px 0;">
-                    <div style="overflow: hidden;">
-                        <div style="width: 2000px;">
-                            <img src="img/profile.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/profile1.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/profile2.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/profile3.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/profile4.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/profile5.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/profile6.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/newuser.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/newuser.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/newuser.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                            <img src="img/newuser.jpg" alt="profile picture"
-                                class="border border-secondary rounded-circle">
-                        </div>
-                    </div>
+                <div class="card bg-white borderrounded" style="padding: 10px 0 10px 10px; margin:15px 0; overflow: hidden;">
+                    <div class="stories">
+                    <div class="story">
+                        <img src="img/profile.jpg" alt="profile picture" class="border border-secondary rounded-circle">
+                        <p class="text-truncate">gokhanizma</p>
+                    </div>    
+                    <div class="story">
+                        <img src="img/profile1.jpg" alt="profile picture" class="border border-secondary rounded-circle">
+                        <p class="text-truncate">skry54</p>
+                    </div>    
+                    <div class="story">
+                        <img src="img/profile2.jpg" alt="profile picture" class="border border-secondary rounded-circle">
+                        <p class="text-truncate">adapaza</p>
+                    </div>    
+                    <div class="story">
+                        <img src="img/profile3.jpg" alt="profile picture" class="border border-secondary rounded-circle">
+                        <p class="text-truncate">qwertyui</p>
+                    </div>    
+                    <div class="story">
+                        <img src="img/profile4.jpg" alt="profile picture" class="border border-secondary rounded-circle">
+                        <p class="text-truncate">mrkus</p>
+                    </div>    
+                    <div class="story">
+                        <img src="img/profile5.jpg" alt="profile picture" class="border border-secondary rounded-circle">
+                        <p class="text-truncate">zxcvb</p>
+                    </div>    
+                    <div class="story">
+                        <img src="img/profile6.jpg" alt="profile picture" class="border border-secondary rounded-circle">
+                        <p class="text-truncate">bolbolbol</p>
+                    </div>    
+                    <div class="story">
+                        <img src="img/newuser.jpg" alt="profile picture" class="border border-secondary rounded-circle">
+                        <p class="text-truncate">uzunisimliornekkullanici</p>
+                    </div>    
+                    <div class="story">
+                        <img src="img/newuser.jpg" alt="profile picture" class="border border-secondary rounded-circle">
+                        <p class="text-truncate">uzunnick</p>
+                    </div>    
                 </div>
+            </div>
                 <div class="card">
                     <div class="card-title">
                         <img src="img/profile.jpg" alt="profile picture" class="border border-secondary rounded-circle">
